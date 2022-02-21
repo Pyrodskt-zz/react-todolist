@@ -6,8 +6,8 @@ import TodolistCompleted from './TodolistCompleted';
 
 
 function App() {
-  const [todos, setTodos] = useState([])
-
+  const [todos, setTodos] = useState([{id:"id1", title: "todo 1", completed: false, date:"20/01/2020"}])
+  
   return (
     <div class="app">
 
